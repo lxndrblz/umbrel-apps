@@ -16,6 +16,8 @@ services:
       - 53:53/udp
       # Setup/Admin Interface
       - 3001:3000/tcp
+      # HTTP
+      - 80:80/tcp
       # DNS-over-TLS
       - 853:853/tcp
       # DNS-over-QUIC
