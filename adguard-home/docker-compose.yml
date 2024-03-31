@@ -15,8 +15,8 @@ services:
       - 53:53/tcp
       - 53:53/udp
       # Setup
-      - 7200:3000/tcp
-      - 7200:3000/udp
+      - 7201:3000/tcp
+      - 7201:3000/udp
       # DNS-over-TLS
       - 853:853/tcp
       # DNS-over-QUIC
