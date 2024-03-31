@@ -17,7 +17,7 @@ services:
       # Setup Interface
       - 3001:3000/tcp
       # Admin Interface
-      - 3000:80/tcp
+      - 3200:80/tcp
       # DNS-over-TLS
       - 853:853/tcp
       # DNS-over-QUIC
