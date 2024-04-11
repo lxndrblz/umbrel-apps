@@ -22,19 +22,19 @@ releaseNotes: >-
   As promised in the notes for the previous release, this update brings some quality-of-life improvements as well as a few bug fixes 🔧.
 
   Full changelog
-  * See also the v0.107.46 GitHub milestone.
+  -  See also the v0.107.46 GitHub milestone.
 
   Added
-  * Ability to disable the use of system hosts file information for query resolution.
-  * Ability to define custom directories for storage of query log files and statistics.
+  -  Ability to disable the use of system hosts file information for query resolution.
+  -  Ability to define custom directories for storage of query log files and statistics.
 
   Changed
-  * Private rDNS resolution (dns.use_private_ptr_resolvers in YAML configuration) now requires a valid "Private reverse DNS servers", when enabled.
-  * Note: Disabling private rDNS resolution behaves effectively the same as if no private reverse DNS servers provided by user and by the OS.
+  -  Private rDNS resolution (dns.use_private_ptr_resolvers in YAML configuration) now requires a valid "Private reverse DNS servers", when enabled.
+  -  Note: Disabling private rDNS resolution behaves effectively the same as if no private reverse DNS servers provided by user and by the OS.
 
   Fixed
-  * Statistics for 7 days displayed by day on the dashboard graph.
-  * Missing "served from cache" label on long DNS server strings.
-  * Incorrect tracking of the system hosts file's changes.
+  -  Statistics for 7 days displayed by day on the dashboard graph.
+  -  Missing "served from cache" label on long DNS server strings.
+  -  Incorrect tracking of the system hosts file's changes.
 submitter: lxndrblz
 submission:
